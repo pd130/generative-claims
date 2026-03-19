@@ -1,0 +1,1533 @@
+{
+  "_meta": {
+    "n_exact_fds": 217,
+    "n_probabilistic_fds": 0,
+    "confidence_threshold": 0.95,
+    "max_lhs_size": 1,
+    "n_rows_analysed": 50000,
+    "elapsed_seconds": 14.11,
+    "discovered_at": "2026-03-03T22:26:28.423960"
+  },
+  "exact": [
+    {
+      "lhs": [
+        "region_code"
+      ],
+      "rhs": "region_density",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "region_density"
+      ],
+      "rhs": "region_code",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "segment"
+      ],
+      "rhs": "is_tpms",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "segment"
+      ],
+      "rhs": "rear_brakes_type",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "segment"
+      ],
+      "rhs": "is_power_steering",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "segment",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "fuel_type",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "max_torque",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "max_power",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "engine_type",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "airbags",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "is_esc",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "is_adjustable_steering",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "is_tpms",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "is_parking_sensors",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "is_parking_camera",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "rear_brakes_type",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "displacement",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "cylinder",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "transmission_type",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "steering_type",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "turning_radius",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "length",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "width",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "gross_weight",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "is_front_fog_lights",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "is_rear_window_wiper",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "is_rear_window_washer",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "is_rear_window_defogger",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "is_brake_assist",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "is_power_door_locks",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "is_central_locking",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "is_power_steering",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "is_driver_seat_height_adjustable",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "is_day_night_rear_view_mirror",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "is_ecw",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "is_speed_alert",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "model"
+      ],
+      "rhs": "ncap_rating",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_torque"
+      ],
+      "rhs": "fuel_type",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_torque"
+      ],
+      "rhs": "max_power",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_torque"
+      ],
+      "rhs": "is_adjustable_steering",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_torque"
+      ],
+      "rhs": "is_tpms",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_torque"
+      ],
+      "rhs": "is_parking_sensors",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_torque"
+      ],
+      "rhs": "rear_brakes_type",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_torque"
+      ],
+      "rhs": "displacement",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_torque"
+      ],
+      "rhs": "cylinder",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_torque"
+      ],
+      "rhs": "steering_type",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_torque"
+      ],
+      "rhs": "is_front_fog_lights",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_torque"
+      ],
+      "rhs": "is_brake_assist",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_torque"
+      ],
+      "rhs": "is_power_door_locks",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_torque"
+      ],
+      "rhs": "is_central_locking",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_torque"
+      ],
+      "rhs": "is_power_steering",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_torque"
+      ],
+      "rhs": "is_driver_seat_height_adjustable",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_torque"
+      ],
+      "rhs": "is_day_night_rear_view_mirror",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_torque"
+      ],
+      "rhs": "is_ecw",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_torque"
+      ],
+      "rhs": "is_speed_alert",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_power"
+      ],
+      "rhs": "fuel_type",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_power"
+      ],
+      "rhs": "max_torque",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_power"
+      ],
+      "rhs": "is_adjustable_steering",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_power"
+      ],
+      "rhs": "is_tpms",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_power"
+      ],
+      "rhs": "is_parking_sensors",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_power"
+      ],
+      "rhs": "rear_brakes_type",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_power"
+      ],
+      "rhs": "displacement",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_power"
+      ],
+      "rhs": "cylinder",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_power"
+      ],
+      "rhs": "steering_type",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_power"
+      ],
+      "rhs": "is_front_fog_lights",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_power"
+      ],
+      "rhs": "is_brake_assist",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_power"
+      ],
+      "rhs": "is_power_door_locks",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_power"
+      ],
+      "rhs": "is_central_locking",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_power"
+      ],
+      "rhs": "is_power_steering",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_power"
+      ],
+      "rhs": "is_driver_seat_height_adjustable",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_power"
+      ],
+      "rhs": "is_day_night_rear_view_mirror",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_power"
+      ],
+      "rhs": "is_ecw",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "max_power"
+      ],
+      "rhs": "is_speed_alert",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "segment",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "model",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "fuel_type",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "max_torque",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "max_power",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "airbags",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "is_esc",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "is_adjustable_steering",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "is_tpms",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "is_parking_sensors",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "is_parking_camera",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "rear_brakes_type",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "displacement",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "cylinder",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "transmission_type",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "steering_type",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "turning_radius",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "length",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "width",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "gross_weight",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "is_front_fog_lights",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "is_rear_window_wiper",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "is_rear_window_washer",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "is_rear_window_defogger",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "is_brake_assist",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "is_power_door_locks",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "is_central_locking",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "is_power_steering",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "is_driver_seat_height_adjustable",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "is_day_night_rear_view_mirror",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "is_ecw",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "is_speed_alert",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "engine_type"
+      ],
+      "rhs": "ncap_rating",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "airbags"
+      ],
+      "rhs": "is_rear_window_wiper",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "airbags"
+      ],
+      "rhs": "is_rear_window_washer",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "airbags"
+      ],
+      "rhs": "is_power_steering",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "is_tpms"
+      ],
+      "rhs": "rear_brakes_type",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "rear_brakes_type"
+      ],
+      "rhs": "is_tpms",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "displacement"
+      ],
+      "rhs": "fuel_type",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "displacement"
+      ],
+      "rhs": "max_torque",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "displacement"
+      ],
+      "rhs": "max_power",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "displacement"
+      ],
+      "rhs": "is_adjustable_steering",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "displacement"
+      ],
+      "rhs": "is_tpms",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "displacement"
+      ],
+      "rhs": "is_parking_sensors",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "displacement"
+      ],
+      "rhs": "rear_brakes_type",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "displacement"
+      ],
+      "rhs": "cylinder",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "displacement"
+      ],
+      "rhs": "steering_type",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "displacement"
+      ],
+      "rhs": "is_front_fog_lights",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "displacement"
+      ],
+      "rhs": "is_brake_assist",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "displacement"
+      ],
+      "rhs": "is_power_door_locks",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "displacement"
+      ],
+      "rhs": "is_central_locking",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "displacement"
+      ],
+      "rhs": "is_power_steering",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "displacement"
+      ],
+      "rhs": "is_driver_seat_height_adjustable",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "displacement"
+      ],
+      "rhs": "is_day_night_rear_view_mirror",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "displacement"
+      ],
+      "rhs": "is_ecw",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "displacement"
+      ],
+      "rhs": "is_speed_alert",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "steering_type"
+      ],
+      "rhs": "is_power_steering",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "turning_radius"
+      ],
+      "rhs": "airbags",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "turning_radius"
+      ],
+      "rhs": "is_tpms",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "turning_radius"
+      ],
+      "rhs": "rear_brakes_type",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "turning_radius"
+      ],
+      "rhs": "steering_type",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "turning_radius"
+      ],
+      "rhs": "is_front_fog_lights",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "turning_radius"
+      ],
+      "rhs": "is_rear_window_wiper",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "turning_radius"
+      ],
+      "rhs": "is_rear_window_washer",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "turning_radius"
+      ],
+      "rhs": "is_brake_assist",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "turning_radius"
+      ],
+      "rhs": "is_power_door_locks",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "turning_radius"
+      ],
+      "rhs": "is_central_locking",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "turning_radius"
+      ],
+      "rhs": "is_power_steering",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "turning_radius"
+      ],
+      "rhs": "is_driver_seat_height_adjustable",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "turning_radius"
+      ],
+      "rhs": "is_ecw",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "turning_radius"
+      ],
+      "rhs": "is_speed_alert",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "length"
+      ],
+      "rhs": "segment",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "length"
+      ],
+      "rhs": "is_adjustable_steering",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "length"
+      ],
+      "rhs": "is_tpms",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "length"
+      ],
+      "rhs": "is_parking_sensors",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "length"
+      ],
+      "rhs": "rear_brakes_type",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "length"
+      ],
+      "rhs": "cylinder",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "length"
+      ],
+      "rhs": "steering_type",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "length"
+      ],
+      "rhs": "is_power_door_locks",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "length"
+      ],
+      "rhs": "is_central_locking",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "length"
+      ],
+      "rhs": "is_power_steering",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "length"
+      ],
+      "rhs": "is_ecw",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "length"
+      ],
+      "rhs": "is_speed_alert",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "width"
+      ],
+      "rhs": "fuel_type",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "width"
+      ],
+      "rhs": "max_torque",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "width"
+      ],
+      "rhs": "max_power",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "width"
+      ],
+      "rhs": "airbags",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "width"
+      ],
+      "rhs": "is_adjustable_steering",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "width"
+      ],
+      "rhs": "is_tpms",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "width"
+      ],
+      "rhs": "is_parking_sensors",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "width"
+      ],
+      "rhs": "rear_brakes_type",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "width"
+      ],
+      "rhs": "displacement",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "width"
+      ],
+      "rhs": "cylinder",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "width"
+      ],
+      "rhs": "steering_type",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "width"
+      ],
+      "rhs": "turning_radius",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "width"
+      ],
+      "rhs": "gross_weight",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "width"
+      ],
+      "rhs": "is_front_fog_lights",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "width"
+      ],
+      "rhs": "is_rear_window_wiper",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "width"
+      ],
+      "rhs": "is_rear_window_washer",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "width"
+      ],
+      "rhs": "is_brake_assist",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "width"
+      ],
+      "rhs": "is_power_door_locks",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "width"
+      ],
+      "rhs": "is_central_locking",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "width"
+      ],
+      "rhs": "is_power_steering",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "width"
+      ],
+      "rhs": "is_driver_seat_height_adjustable",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "width"
+      ],
+      "rhs": "is_day_night_rear_view_mirror",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "width"
+      ],
+      "rhs": "is_ecw",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "width"
+      ],
+      "rhs": "is_speed_alert",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "width"
+      ],
+      "rhs": "ncap_rating",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "gross_weight"
+      ],
+      "rhs": "fuel_type",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "gross_weight"
+      ],
+      "rhs": "max_torque",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "gross_weight"
+      ],
+      "rhs": "max_power",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "gross_weight"
+      ],
+      "rhs": "airbags",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "gross_weight"
+      ],
+      "rhs": "is_adjustable_steering",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "gross_weight"
+      ],
+      "rhs": "is_tpms",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "gross_weight"
+      ],
+      "rhs": "is_parking_sensors",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "gross_weight"
+      ],
+      "rhs": "rear_brakes_type",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "gross_weight"
+      ],
+      "rhs": "displacement",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "gross_weight"
+      ],
+      "rhs": "cylinder",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "gross_weight"
+      ],
+      "rhs": "steering_type",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "gross_weight"
+      ],
+      "rhs": "turning_radius",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "gross_weight"
+      ],
+      "rhs": "width",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "gross_weight"
+      ],
+      "rhs": "is_front_fog_lights",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "gross_weight"
+      ],
+      "rhs": "is_rear_window_wiper",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "gross_weight"
+      ],
+      "rhs": "is_rear_window_washer",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "gross_weight"
+      ],
+      "rhs": "is_brake_assist",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "gross_weight"
+      ],
+      "rhs": "is_power_door_locks",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "gross_weight"
+      ],
+      "rhs": "is_central_locking",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "gross_weight"
+      ],
+      "rhs": "is_power_steering",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "gross_weight"
+      ],
+      "rhs": "is_driver_seat_height_adjustable",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "gross_weight"
+      ],
+      "rhs": "is_day_night_rear_view_mirror",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "gross_weight"
+      ],
+      "rhs": "is_ecw",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "gross_weight"
+      ],
+      "rhs": "is_speed_alert",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "gross_weight"
+      ],
+      "rhs": "ncap_rating",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "is_rear_window_wiper"
+      ],
+      "rhs": "is_rear_window_washer",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "is_rear_window_washer"
+      ],
+      "rhs": "is_rear_window_wiper",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "is_power_door_locks"
+      ],
+      "rhs": "is_central_locking",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "is_power_door_locks"
+      ],
+      "rhs": "is_ecw",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "is_central_locking"
+      ],
+      "rhs": "is_power_door_locks",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "is_central_locking"
+      ],
+      "rhs": "is_ecw",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "is_ecw"
+      ],
+      "rhs": "is_power_door_locks",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "is_ecw"
+      ],
+      "rhs": "is_central_locking",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "ncap_rating"
+      ],
+      "rhs": "is_tpms",
+      "confidence": 1.0
+    },
+    {
+      "lhs": [
+        "ncap_rating"
+      ],
+      "rhs": "rear_brakes_type",
+      "confidence": 1.0
+    }
+  ],
+  "probabilistic": []
+}
