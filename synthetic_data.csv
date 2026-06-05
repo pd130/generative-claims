@@ -1,0 +1,11 @@
+claim_status,segment,fuel_type,region_code,max_torque (Nm),max_torque_rpm,max_power (bhp),max_power_rpm,subscription_length (months),vehicle_age (months),customer_age,region_density,model,engine_type,airbags,is_esc,is_adjustable_steering,is_tpms,is_parking_sensors,is_parking_camera,rear_brakes_type,engine_displacement,cylinder,transmission_type,steering_type,turning_radius,length,width,gross_weight,is_front_fog_lights,is_rear_window_wiper,is_rear_window_washer,is_rear_window_defogger,is_brake_assist,is_power_door_locks,is_central_locking,is_power_steering,is_driver_seat_height_adjustable,is_day_night_rear_view_mirror,is_ecw,is_speed_alert,ncap_rating
+0,A,Petrol,C14,247.9,3256,70.1,4800,0.5,5.1,39,6234,M7,F8D Petrol Engine,2,0,1,1,1,1,Disc,1435,4,Automatic,Manual,4.78,3600,1700,1250,1,0,0,1,0,1,1,0,0,0,0,0,2
+0,C1,Petrol,C11,249.0,3650,75.12,5800,2.3,13.4,55,6592,M7,1.5 L U2 CRDi,6,0,1,1,0,1,Disc,1395,4,Automatic,Power,4.78,3620,1750,1490,0,1,0,1,0,1,1,1,0,0,0,0,2
+0,A,Diesel,C3,200.0,4399,117.56,5998,12.5,20.0,35,56789,M6,1.5 Turbocharged Revotron,4,1,0,1,0,1,Disc,1234,4,Automatic,Electric,5.0,3890,1765,1380,1,0,0,0,0,1,1,1,0,1,0,0,3
+1,Utility,Diesel,C22,98.5,4000,75.6,5500,14.0,20.0,48,19250,M7,1.5 L U2 CRDi,6,1,1,1,0,1,Disc,1204,3,Manual,Electric,5.0,3780,1670,1420,1,1,0,0,1,1,1,1,0,0,0,0,3
+0,B1,Diesel,C21,200.0,3750,104.0,5900,12.1,20.0,55,37682,M5,1.5 L U2 CRDi,6,1,0,1,0,0,Disc,1246,4,Manual,Electric,4.9,3800,1750,1600,0,1,0,0,1,1,1,1,0,0,0,0,4
+0,B1,Petrol,C11,194.6,3200,73.85,5000,8.1,20.0,35,46903,M7,1.2 L K12N Dualjet,4,1,0,1,0,0,Disc,987,3,Manual,Electric,4.8,3650,1620,1270,1,0,0,0,0,1,1,1,0,0,0,0,3
+0,B2,Petrol,C10,195.0,4200,65.7,5800,8.2,20.0,35,41000,M7,1.5 L U2 CRDi,6,1,0,1,0,0,Disc,1249,3,Automatic,Manual,5.0,3600,1700,1280,1,0,1,0,0,1,1,0,1,0,0,0,3
+0,A,Petrol,C9,90.0,4000,65.25,5100,14.0,11.0,64,37895,M3,1.2 L K Series Engine,4,1,0,1,0,0,Disc,946,3,Manual,Electric,4.8,3850,1720,1650,1,0,0,0,1,1,1,1,0,0,0,0,2
+0,Utility,CNG,C22,198.5,2900,70.6,4800,13.0,20.0,62,20430,M9,1.5 L U2 CRDi,3,1,0,1,0,1,Disc,1258,4,Manual,Electric,4.7,3990,1650,1380,0,1,0,0,0,1,1,1,0,0,0,0,3
+0,B1,Diesel,C14,200.0,4399,57.69,5000,1.7,8.2,54,34567,M9,1.2 L K Series Engine,3,0,1,1,0,1,Disc,964,3,Automatic,Electric,4.8,3750,1625,1290,1,1,0,1,0,1,1,1,0,1,0,1,2

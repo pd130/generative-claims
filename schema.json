@@ -1,0 +1,737 @@
+{
+    "max_torque (Nm)": {
+        "type": "float",
+        "min": 60.0,
+        "max": 250.0,
+        "nullable": false,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 60.0,
+        "observed_max": 250.0,
+        "mean": 134.4509,
+        "std": 73.1468,
+        "p25": 60.0,
+        "p50": 113.0,
+        "p75": 200.0
+    },
+    "max_torque_rpm": {
+        "type": "int",
+        "min": 1750,
+        "max": 4400,
+        "nullable": false,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 1750.0,
+        "observed_max": 4400.0,
+        "mean": 3533.176,
+        "std": 725.9607,
+        "p25": 2750.0,
+        "p50": 3500.0,
+        "p75": 4400.0
+    },
+    "max_power (bhp)": {
+        "type": "float",
+        "min": 40.36,
+        "max": 118.36,
+        "nullable": false,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 40.36,
+        "observed_max": 118.36,
+        "mean": 78.9768,
+        "std": 27.6993,
+        "p25": 40.36,
+        "p50": 88.5,
+        "p75": 97.89
+    },
+    "max_power_rpm": {
+        "type": "int",
+        "min": 3600,
+        "max": 6000,
+        "nullable": false,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 3600.0,
+        "observed_max": 6000.0,
+        "mean": 5307.1631,
+        "std": 916.7708,
+        "p25": 4000.0,
+        "p50": 6000.0,
+        "p75": 6000.0
+    },
+    "subscription_length (months)": {
+        "type": "float",
+        "min": 0.0,
+        "max": 14.0,
+        "nullable": false,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 0.0,
+        "observed_max": 14.0,
+        "mean": 6.1117,
+        "std": 4.1428,
+        "p25": 2.1,
+        "p50": 5.7,
+        "p75": 10.4
+    },
+    "vehicle_age (months)": {
+        "type": "float",
+        "min": 0.0,
+        "max": 20.0,
+        "nullable": false,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 0.0,
+        "observed_max": 20.0,
+        "mean": 1.3885,
+        "std": 1.1344,
+        "p25": 0.4,
+        "p50": 1.2,
+        "p75": 2.2
+    },
+    "customer_age": {
+        "type": "int",
+        "min": 35,
+        "max": 75,
+        "nullable": false,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 35.0,
+        "observed_max": 75.0,
+        "mean": 44.8239,
+        "std": 6.9356,
+        "p25": 39.0,
+        "p50": 44.0,
+        "p75": 49.0
+    },
+    "region_code": {
+        "type": "categorical",
+        "values": [
+            "C1",
+            "C10",
+            "C11",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C16",
+            "C17",
+            "C18",
+            "C19",
+            "C2",
+            "C20",
+            "C21",
+            "C22",
+            "C3",
+            "C4",
+            "C5",
+            "C6",
+            "C7",
+            "C8",
+            "C9"
+        ],
+        "null_count": 0,
+        "null_pct": 0.0,
+        "value_counts": {
+            "C8": 13654,
+            "C2": 7342,
+            "C5": 6979,
+            "C3": 6101,
+            "C14": 3660,
+            "C13": 3423,
+            "C10": 3155,
+            "C9": 2734,
+            "C7": 2167,
+            "C12": 1589,
+            "C1": 1468,
+            "C11": 1212,
+            "C19": 952,
+            "C6": 890,
+            "C15": 771,
+            "C4": 665,
+            "C17": 492,
+            "C16": 401,
+            "C21": 379,
+            "C18": 242,
+            "C22": 207,
+            "C20": 109
+        },
+        "top_value": "C8",
+        "n_unique": 22
+    },
+    "region_density": {
+        "type": "int",
+        "min": 290,
+        "max": 73430,
+        "nullable": false,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 290.0,
+        "observed_max": 73430.0,
+        "mean": 18826.8587,
+        "std": 17660.1748,
+        "p25": 6112.0,
+        "p50": 8794.0,
+        "p75": 27003.0
+    },
+    "segment": {
+        "type": "categorical",
+        "values": [
+            "A",
+            "B1",
+            "B2",
+            "C1",
+            "C2",
+            "Utility"
+        ],
+        "null_count": 0,
+        "null_pct": 0.0,
+        "value_counts": {
+            "B2": 18314,
+            "A": 17321,
+            "C2": 14018,
+            "B1": 4173,
+            "C1": 3557,
+            "Utility": 1209
+        },
+        "top_value": "B2",
+        "n_unique": 6
+    },
+    "model": {
+        "type": "categorical",
+        "values": [
+            "M1",
+            "M10",
+            "M11",
+            "M2",
+            "M3",
+            "M4",
+            "M5",
+            "M6",
+            "M7",
+            "M8",
+            "M9"
+        ],
+        "null_count": 0,
+        "null_pct": 0.0,
+        "value_counts": {
+            "M1": 14948,
+            "M4": 14018,
+            "M6": 13776,
+            "M8": 4173,
+            "M7": 2940,
+            "M3": 2373,
+            "M9": 2114,
+            "M5": 1598,
+            "M10": 1209,
+            "M2": 1080,
+            "M11": 363
+        },
+        "top_value": "M1",
+        "n_unique": 11
+    },
+    "fuel_type": {
+        "type": "categorical",
+        "values": [
+            "CNG",
+            "Diesel",
+            "Petrol"
+        ],
+        "null_count": 0,
+        "null_pct": 0.0,
+        "value_counts": {
+            "Petrol": 20532,
+            "CNG": 20330,
+            "Diesel": 17730
+        },
+        "top_value": "Petrol",
+        "n_unique": 3
+    },
+    "engine_type": {
+        "type": "categorical",
+        "values": [
+            "1.0 SCe",
+            "1.2 L K Series Engine",
+            "1.2 L K12N Dualjet",
+            "1.5 L U2 CRDi",
+            "1.5 Turbocharged Revotorq",
+            "1.5 Turbocharged Revotron",
+            "F8D Petrol Engine",
+            "G12B",
+            "K Series Dual jet",
+            "K10C",
+            "i-DTEC"
+        ],
+        "null_count": 0,
+        "null_pct": 0.0,
+        "value_counts": {
+            "F8D Petrol Engine": 14948,
+            "1.5 L U2 CRDi": 14018,
+            "K Series Dual jet": 13776,
+            "K10C": 4173,
+            "1.2 L K Series Engine": 2940,
+            "1.0 SCe": 2373,
+            "i-DTEC": 2114,
+            "1.5 Turbocharged Revotorq": 1598,
+            "G12B": 1209,
+            "1.2 L K12N Dualjet": 1080,
+            "1.5 Turbocharged Revotron": 363
+        },
+        "top_value": "F8D Petrol Engine",
+        "n_unique": 11
+    },
+    "airbags": {
+        "type": "int",
+        "min": 1,
+        "max": 6,
+        "nullable": false,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 1.0,
+        "observed_max": 6.0,
+        "mean": 3.1371,
+        "std": 1.8326,
+        "p25": 2.0,
+        "p50": 2.0,
+        "p75": 6.0
+    },
+    "is_esc": {
+        "type": "int",
+        "values": [
+            0,
+            1
+        ],
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 0.0,
+        "observed_max": 1.0,
+        "mean": 0.3141,
+        "std": 0.4641,
+        "p25": 0.0,
+        "p50": 0.0,
+        "p75": 1.0
+    },
+    "is_adjustable_steering": {
+        "type": "int",
+        "values": [
+            0,
+            1
+        ],
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 0.0,
+        "observed_max": 1.0,
+        "mean": 0.6063,
+        "std": 0.4886,
+        "p25": 0.0,
+        "p50": 1.0,
+        "p75": 1.0
+    },
+    "is_tpms": {
+        "type": "int",
+        "values": [
+            0,
+            1
+        ],
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 0.0,
+        "observed_max": 1.0,
+        "mean": 0.2392,
+        "std": 0.4266,
+        "p25": 0.0,
+        "p50": 0.0,
+        "p75": 0.0
+    },
+    "is_parking_sensors": {
+        "type": "int",
+        "values": [
+            0,
+            1
+        ],
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 0.0,
+        "observed_max": 1.0,
+        "mean": 0.9595,
+        "std": 0.1971,
+        "p25": 1.0,
+        "p50": 1.0,
+        "p75": 1.0
+    },
+    "is_parking_camera": {
+        "type": "int",
+        "values": [
+            0,
+            1
+        ],
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 0.0,
+        "observed_max": 1.0,
+        "mean": 0.3906,
+        "std": 0.4879,
+        "p25": 0.0,
+        "p50": 0.0,
+        "p75": 1.0
+    },
+    "rear_brakes_type": {
+        "type": "categorical",
+        "values": [
+            "Disc",
+            "Drum"
+        ],
+        "null_count": 0,
+        "null_pct": 0.0,
+        "value_counts": {
+            "Drum": 44574,
+            "Disc": 14018
+        },
+        "top_value": "Drum",
+        "n_unique": 2
+    },
+    "engine_displacement": {
+        "type": "int",
+        "min": 796,
+        "max": 1498,
+        "nullable": false,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 796.0,
+        "observed_max": 1498.0,
+        "mean": 1162.3559,
+        "std": 266.3048,
+        "p25": 796.0,
+        "p50": 1197.0,
+        "p75": 1493.0
+    },
+    "cylinder": {
+        "type": "int",
+        "min": 3,
+        "max": 4,
+        "nullable": false,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 3.0,
+        "observed_max": 4.0,
+        "mean": 3.627,
+        "std": 0.4836,
+        "p25": 3.0,
+        "p50": 4.0,
+        "p75": 4.0
+    },
+    "transmission_type": {
+        "type": "categorical",
+        "values": [
+            "Automatic",
+            "Manual"
+        ],
+        "null_count": 0,
+        "null_pct": 0.0,
+        "value_counts": {
+            "Manual": 38181,
+            "Automatic": 20411
+        },
+        "top_value": "Manual",
+        "n_unique": 2
+    },
+    "steering_type": {
+        "type": "categorical",
+        "values": [
+            "Electric",
+            "Manual",
+            "Power"
+        ],
+        "null_count": 0,
+        "null_pct": 0.0,
+        "value_counts": {
+            "Power": 33502,
+            "Electric": 23881,
+            "Manual": 1209
+        },
+        "top_value": "Power",
+        "n_unique": 3
+    },
+    "turning_radius": {
+        "type": "float",
+        "min": 4.5,
+        "max": 5.2,
+        "nullable": false,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 4.5,
+        "observed_max": 5.2,
+        "mean": 4.8529,
+        "std": 0.2281,
+        "p25": 4.6,
+        "p50": 4.8,
+        "p75": 5.0
+    },
+    "length": {
+        "type": "int",
+        "min": 3445,
+        "max": 4300,
+        "nullable": false,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 3445.0,
+        "observed_max": 4300.0,
+        "mean": 3850.4769,
+        "std": 311.4571,
+        "p25": 3445.0,
+        "p50": 3845.0,
+        "p75": 3995.0
+    },
+    "width": {
+        "type": "int",
+        "min": 1475,
+        "max": 1811,
+        "nullable": false,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 1475.0,
+        "observed_max": 1811.0,
+        "mean": 1672.2337,
+        "std": 112.0891,
+        "p25": 1515.0,
+        "p50": 1735.0,
+        "p75": 1755.0
+    },
+    "gross_weight": {
+        "type": "int",
+        "min": 1051,
+        "max": 1720,
+        "nullable": false,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 1051.0,
+        "observed_max": 1720.0,
+        "mean": 1385.2768,
+        "std": 212.4231,
+        "p25": 1185.0,
+        "p50": 1335.0,
+        "p75": 1510.0
+    },
+    "is_front_fog_lights": {
+        "type": "int",
+        "values": [
+            0,
+            1
+        ],
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 0.0,
+        "observed_max": 1.0,
+        "mean": 0.5791,
+        "std": 0.4937,
+        "p25": 0.0,
+        "p50": 1.0,
+        "p75": 1.0
+    },
+    "is_rear_window_wiper": {
+        "type": "int",
+        "values": [
+            0,
+            1
+        ],
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 0.0,
+        "observed_max": 1.0,
+        "mean": 0.2894,
+        "std": 0.4535,
+        "p25": 0.0,
+        "p50": 0.0,
+        "p75": 1.0
+    },
+    "is_rear_window_washer": {
+        "type": "int",
+        "values": [
+            0,
+            1
+        ],
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 0.0,
+        "observed_max": 1.0,
+        "mean": 0.2894,
+        "std": 0.4535,
+        "p25": 0.0,
+        "p50": 0.0,
+        "p75": 1.0
+    },
+    "is_rear_window_defogger": {
+        "type": "int",
+        "values": [
+            0,
+            1
+        ],
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 0.0,
+        "observed_max": 1.0,
+        "mean": 0.3501,
+        "std": 0.477,
+        "p25": 0.0,
+        "p50": 0.0,
+        "p75": 1.0
+    },
+    "is_brake_assist": {
+        "type": "int",
+        "values": [
+            0,
+            1
+        ],
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 0.0,
+        "observed_max": 1.0,
+        "mean": 0.5492,
+        "std": 0.4976,
+        "p25": 0.0,
+        "p50": 1.0,
+        "p75": 1.0
+    },
+    "is_power_door_locks": {
+        "type": "int",
+        "values": [
+            0,
+            1
+        ],
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 0.0,
+        "observed_max": 1.0,
+        "mean": 0.7242,
+        "std": 0.4469,
+        "p25": 0.0,
+        "p50": 1.0,
+        "p75": 1.0
+    },
+    "is_central_locking": {
+        "type": "int",
+        "values": [
+            0,
+            1
+        ],
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 0.0,
+        "observed_max": 1.0,
+        "mean": 0.7242,
+        "std": 0.4469,
+        "p25": 0.0,
+        "p50": 1.0,
+        "p75": 1.0
+    },
+    "is_power_steering": {
+        "type": "int",
+        "values": [
+            0,
+            1
+        ],
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 0.0,
+        "observed_max": 1.0,
+        "mean": 0.9794,
+        "std": 0.1422,
+        "p25": 1.0,
+        "p50": 1.0,
+        "p75": 1.0
+    },
+    "is_driver_seat_height_adjustable": {
+        "type": "int",
+        "values": [
+            0,
+            1
+        ],
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 0.0,
+        "observed_max": 1.0,
+        "mean": 0.5853,
+        "std": 0.4927,
+        "p25": 0.0,
+        "p50": 1.0,
+        "p75": 1.0
+    },
+    "is_day_night_rear_view_mirror": {
+        "type": "int",
+        "values": [
+            0,
+            1
+        ],
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 0.0,
+        "observed_max": 1.0,
+        "mean": 0.3803,
+        "std": 0.4855,
+        "p25": 0.0,
+        "p50": 0.0,
+        "p75": 1.0
+    },
+    "is_ecw": {
+        "type": "int",
+        "values": [
+            0,
+            1
+        ],
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 0.0,
+        "observed_max": 1.0,
+        "mean": 0.7242,
+        "std": 0.4469,
+        "p25": 0.0,
+        "p50": 1.0,
+        "p75": 1.0
+    },
+    "is_speed_alert": {
+        "type": "int",
+        "values": [
+            0,
+            1
+        ],
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 0.0,
+        "observed_max": 1.0,
+        "mean": 0.9938,
+        "std": 0.0785,
+        "p25": 1.0,
+        "p50": 1.0,
+        "p75": 1.0
+    },
+    "ncap_rating": {
+        "type": "int",
+        "min": 0,
+        "max": 5,
+        "nullable": false,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 0.0,
+        "observed_max": 5.0,
+        "mean": 1.76,
+        "std": 1.3896,
+        "p25": 0.0,
+        "p50": 2.0,
+        "p75": 3.0
+    },
+    "claim_status": {
+        "type": "int",
+        "min": 0,
+        "max": 1,
+        "nullable": false,
+        "null_count": 0,
+        "null_pct": 0.0,
+        "observed_min": 0.0,
+        "observed_max": 1.0,
+        "mean": 0.064,
+        "std": 0.2447,
+        "p25": 0.0,
+        "p50": 0.0,
+        "p75": 0.0
+    }
+}
